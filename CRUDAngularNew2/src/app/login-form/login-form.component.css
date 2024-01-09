@@ -1,0 +1,11 @@
+.form-outline {
+  margin-bottom: 20px;
+}
+
+.form-outline label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-outline btn{
+  margin-left: 50px;
+}
