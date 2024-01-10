@@ -1,0 +1,31 @@
+<h1 class="text-center mt-5">{{title}}</h1>
+<div >
+  <form (ngSubmit)="onSubmit()" class="form-control-lg col-md-6 offset-md-3">
+    <div class="form-group">
+      <label class="label" for="name">Name:</label>
+      <input type="text" class="form-control" id="name" [(ngModel)]="person.name" name="name" [placeholder]="person.name">
+    </div>
+
+    <div class="form-group">
+      <label class="label" for="alive">Alive?</label>
+      <select class="form-control" id="alive" [(ngModel)]="person.alive" name="alive">
+        <option value="true">Yes</option>
+        <option value="false">No</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label class="label" for="species">Species:</label>
+      <input type="text" class="form-control" id="species" [(ngModel)]="person.species" name="species" [placeholder]="person.species">
+    </div>
+
+    <div class="form-group">
+      <label class="label" for="gender">Gender:</label>
+      <input type="text" class="form-control" id="gender" [(ngModel)]="person.gender" name="gender" [placeholder]="person.gender">
+    </div>
+    <div class="text-center mt-5">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+
+</div>

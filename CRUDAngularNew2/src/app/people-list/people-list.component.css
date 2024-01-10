@@ -1,0 +1,6 @@
+@import "bootstrap";
+/* Custom style for thead */
+.custom-thead {
+  background-color: #000000; /* Dark background color */
+  color: #1a1515; /* Text color */
+}
