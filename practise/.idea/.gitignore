@@ -6,15 +6,15 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-/Study/javaProjects/Crud/
-/Study/javaProjects/CRUDAngularNew2/
-/Study/javaProjects/JavaProjects041023/
-/Study/javaProjects/LeetCodePractise/
-/Study/javaProjects/LiquidBasePts/
-/Study/javaProjects/microServiceTest/
-/Study/javaProjects/microTest/
-/Study/javaProjects/my-project/
-/Study/javaProjects/TestProject/
-/Study/javaProjects/CRUDAngularNew2.iml
+javaProjects/Crud/
+javaProjects/CRUDAngularNew2/
+javaProjects/JavaProjects041023/
+javaProjects/LeetCodePractise/
+javaProjects/LiquidBasePts/
+javaProjects/microServiceTest/
+javaProjects/microTest/
+javaProjects/my-project/
+javaProjects/TestProject/
+javaProjects/CRUDAngularNew2.iml
 
 
